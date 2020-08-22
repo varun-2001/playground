@@ -21,24 +21,28 @@ class _TimeMoneyState extends State<TimeMoney> {
                     image: AssetImage("assets/images/time-moneyapp.png"),
                     fit: BoxFit.cover)),
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
-                Center(
-                    child: SizedBox(
-                  width: MediaQuery.of(context).size.width - 60.0,
-                  child: Text(
-                    "LET'S BUILD YOUR VERY OWN INCOME PYRAMID",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 35.0,
-                        fontFamily: 'Roboto'),
-                  ),
-                )),
+                Padding(
+                  padding: const EdgeInsets.only(top:200.0),
+                  child: Center(
+                      child: SizedBox(
+                        width: MediaQuery.of(context).size.width - 60.0,
+                        child: Text(
+                      "LET'S BUILD YOUR VERY OWN INCOME PYRAMID",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 35.0,
+                          fontFamily: 'Roboto'),
+                    ),
+                  )),
+                ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: TextFormField(
+                  child: new TextFormField(
+                    obscureText: true ,
                     decoration: InputDecoration(
+                      fillColor: Colors.purple,
                       labelText: "Desired Income",
                     ),
                   ),
