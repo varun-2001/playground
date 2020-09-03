@@ -28,6 +28,7 @@ dependencies:
   intl:
   flutter_svg:
   date_range_picker: ^1.0.6
+  flutter_local_notifications:
   # image_picker: ^0.4.12
   # firebase_ml_vision: ^0.2.1
   # webview_flutter: ^0.3.0

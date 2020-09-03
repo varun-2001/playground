@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'local_notifications.dart';
 
 
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: null
+    home: Scaffold(
+      body: LocalNotifications(),
+    )
   ));
 }
