@@ -15,7 +15,7 @@ class _DurationState extends State<Duration> {
   @override
   Widget build(BuildContext context) {
     String _updatedFrom = new DateFormat.yMMMd().format(_fromDate);
-    String _updatedTo = new DateFormat.yMMMd().format(_toDate);
+    String _updatedTo = new DateFormat.yMd().add_jm().format(_toDate);
     String _beginButtonText = "Begin Date of Journey";
     String _endButtonText = "Accomplishment Date";
     return Scaffold(backgroundColor: Colors.deepOrange[300],
