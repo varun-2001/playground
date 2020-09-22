@@ -33,6 +33,7 @@ dependencies:
   http: ^0.12.2
   path_provider: ^1.6.14
   scheduled_notifications: ^1.0.0
+  awesome_notifications: ^0.0.2+2
   # image_picker: ^0.4.12
   # firebase_ml_vision: ^0.2.1
   # webview_flutter: ^0.3.0
@@ -70,7 +71,12 @@ flutter:
       fonts:
         #        - asset: assets/fonts/Roboto-Regular.ttf
         #        - asset: assets/fonts/Roboto-Medium.ttf
-        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Thin.ttf
+
+
+    - family: Product-Sans
+      fonts:
+        - asset: assets/fonts/Product-Sans-Regular.ttf
   #        - asset: assets/fonts/Roboto-Black.ttf
   #         style: italic
   #   - family: Trajan Pro
