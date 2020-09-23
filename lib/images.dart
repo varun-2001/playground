@@ -1,6 +1,3 @@
-import 'package:flutter/material.dart';
-
-
 class Photos{
   final String image;
   Photos({this.image});
@@ -16,5 +13,4 @@ List <Photos> photos =[
   Photos(image: "https://instagram.fblr5-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p750x750/106589173_149334700059884_2410205726787197530_n.jpg?_nc_ht=instagram.fblr5-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=Ibf6Mbjh0LMAX_RKWML&oh=5b647ab74f709534c437bc29877a0e51&oe=5F91C757"),
   Photos(image: "https://www.nationalgeographic.com/content/dam/animals/2019/10/wildlife-photographer-of-the-year/og-lead-image-yongqing-bao---wildlife-photographer-of-the-year.ngsversion.1571178608172.adapt.1900.1.jpg"),
   Photos(image: "https://expertphotography.com/wp-content/uploads/2017/05/portrait-photography-1.jpg"),
-  
 ];
